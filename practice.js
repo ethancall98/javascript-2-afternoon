@@ -14,7 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+var me = {
+  name: "ethan",
+  age: 20
+}
+me.name
+
 
 ////////// PROBLEM 2 //////////
 
@@ -23,21 +28,40 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+let favoriteThings = {
+  band: "big",
+  food: "burger",
+  person: "me",
+  book: "book of mormon",
+  movie: "up",
+  holiday: "cripmas"
+}
+
+favoriteThings.car = "yeet"
+favoriteThings.brand = "yeezy"
+
+favoriteThings.food = "Chicken Nuggets"
+favoriteThings.book = "Harry Potter"
+
+
+
+
+
+
+
+
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
   and change the value of the book key in your favoriteThings object to be 'Harry Potter'.
 */
 
-//Code here
 
 ////////// PROBLEM 3 //////////
 
@@ -49,8 +73,11 @@
   Using dot notation, add another key (or property) to your backPack object that is named color, with the value being the color of your backpack.
 */
 
-//Code here
-
+var backPack = {};
+var item = "firstPocket";
+backPack[item] = "chapstick";
+backPack.color = 'black';
+alert(backPack);
 /*
   After you do the above, alert your entire backPack object.
 */
@@ -85,6 +112,8 @@ var user2 = {
 */
 
 //Code Here
+ user2.name = 'Bryan G. Smith'
+ user2.email = 'bryan.smith@devmounta.in'
 
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
@@ -95,7 +124,6 @@ var user2 = {
   Create an empty object called methodCollection.
 */
 
-//Code Here
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
@@ -104,11 +132,12 @@ var user2 = {
 
 //Code Here
 
-/*
-  Now call your alertHello and logHello methods.
-*/
 
-//Code Here
+
+//  Now call your alertHello and logHello methods.
+
+
+
 
 ////////// PROBLEM 6 //////////
 
@@ -126,4 +155,4 @@ var user2 = {
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+//Code Her
